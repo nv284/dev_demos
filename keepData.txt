@@ -1,4 +1,9 @@
 hello everyone 
 how to create the branch on local area ?
+ git branch <branch Name>
 how to merge the branches ?
+ git merge commit id 
+
 how to rebase ?
+ git rebase master 
+ 
