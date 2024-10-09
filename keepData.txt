@@ -1,1 +1,4 @@
 hello everyone 
+how to create the branch on local area ?
+how to merge the branches ?
+how to rebase ?
