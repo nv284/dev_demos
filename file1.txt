@@ -1,3 +1,0 @@
-Hi I am learning Git .
-
-Here I learn Config command , add command and commit command .

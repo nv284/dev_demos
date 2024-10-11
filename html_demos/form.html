@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple HTML Form</title>
+    <style>
+        table {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Form </h1>
+    <form method="post">
+        <table >
+            <caption> Registraion Form </caption>
+            <tr>
+                <th>Enter your First Name :</th>
+                <td><input type="text" name="fn" maxlength="10" title="enter your first name"> </td>
+            </tr>
+            <tr>
+                <th>Enter your last name</th>
+                <td><input type="text"/></td>
+                </tr>
+                <tr>
+                <th>Enter your password</th>
+                <td><input type="password"/></td>
+                </tr>
+                    <tr>
+                        <th>Address </th>
+                        <td><textarea rows="10" col="20"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th> Select your gender</th>
+                        <td>male  <input type="radio" name="g" value="m">
+                            female<input type="radio" name="g" value="f"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th> select your skills</th>
+                        <td>
+                           skill-1<input type="checkbox" name="x[]" value="Java">
+                           skill-2<input type="checkbox" name="x[]" value="PHP">
+                           skill-3<input type="checkbox" name="x[]" value="Cloud">
+                           skill-4<input type="checkbox" name="x[]" value="UI">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Selct DOB</th>
+                        <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <th>Selct Your Country</th>
+                        <td> <select  name=""country>
+
+                            <option value="" selected="selected" disabled="disabled">select </option>
+                            <option value="1">India</option>
+                            <option value="2">USA </option>
+                        </select></td>
+                       
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="save my data ">
+                        </td>
+                    </tr>
+
+        </table>
+
+    </form>
+</body>
+</html>
